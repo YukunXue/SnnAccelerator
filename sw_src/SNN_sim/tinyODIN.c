@@ -155,8 +155,8 @@ void print_accuracy(int *correct_guesses){
   printf("Accuracy: %.2f%%\n", accuracy);
 }
 
-int main() {
   int test_images[10000][256] = {{0}};
+int main() {
   int test_labels[DATASET_SIZE] = {0};
   int weights[IL_neurons][OL_neurons] = {{0}};
 
